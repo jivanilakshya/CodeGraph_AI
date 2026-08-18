@@ -1,0 +1,63 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.coverage
+coverage.xml
+htmlcov/
+.ipynb_checkpoints/
+
+# Node.js
+node_modules/
+.npm/
+.yarn/
+.pnpm-store/
+.next/
+dist/
+build/
+npm-debug.log*
+package-lock-backup.json
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Runtime
+uploads/
+repositories/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+docker-data/
+
+# Logs
+*.log
+logs/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# JetBrains
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
